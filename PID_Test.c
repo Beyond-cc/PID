@@ -37,7 +37,6 @@ int main()
 
     /* Simulate response using test system */
     float setpoint = 1.0f;
-
     printf("Time (s)\tSystem Output\tControllerOutput\r\n");
     for (float t = 0.0f; t <= SIMULATION_TIME_MAX; t += SAMPLE_TIME_S) {
 
